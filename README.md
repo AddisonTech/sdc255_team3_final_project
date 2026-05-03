@@ -18,7 +18,7 @@ Adam Smithhisler:
 Write to File Function
 Calculation 1 Function
 
-James:
+James Strohm:
 Read File Function
 Calculation 2 Function
 
