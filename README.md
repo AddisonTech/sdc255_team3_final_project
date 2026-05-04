@@ -42,6 +42,11 @@ Writes program information to a file.
 calculations.c and calculations.h
 Contains Calculation 1 and Calculation 2.
 
+## Project Links
+
+Jira Board:
+https://addsmi1720.atlassian.net/jira/software/projects/T3FP/boards/34/backlog
+
 ## Workflow
 
 Each team member should work on the file that matches their assigned Jira user story. Jira will be used to track task status. GitHub will be used to store and combine the final project code.
