@@ -17,7 +17,7 @@ void mainLoop(int option) {
             readFile();
             break;
         case 2:
-            writeFile();
+            writeToFile("Team 3 Final Project output");
             break;
         case 3:
             firstCalculation(0, 0);
