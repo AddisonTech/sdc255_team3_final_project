@@ -17,7 +17,7 @@ int menu() {
     printf("1. Read File\n");
     printf("2. Write File\n");
     printf("3. Calculation 1\n");
-    printf("4. Calculation 2\n");
+    printf("4. Fibonacci Sequence\n");
     printf("5. Exit\n");
     printf("=================\n");
     printf("Enter your choice: ");
