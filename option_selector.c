@@ -10,6 +10,7 @@
 #include "read_file.h"
 #include "write_file.h"
 #include "calculations.h"
+#include "calculations_2.h"
 
 void mainLoop(int option) {
     switch(option) {
@@ -23,7 +24,7 @@ void mainLoop(int option) {
             firstCalculation(0, 0);
             break;
         case 4:
-            secondCalculation(0, 0);
+            calculationTwo();
             break;
         default:
             printf("Invalid option. Please try again.\n");
