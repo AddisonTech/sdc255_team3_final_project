@@ -43,10 +43,7 @@ void calculationTwo() {
         printf("\nGolden Ratio Convergence (phi = 1.618033...):\n");
         for (int i = 1; i < n; i++) {
             double ratio = (double)fib[i] / fib[i - 1];
-            printf("F(%d)/F(%d)%s= %.6f\n",
-                   i + 1, i,
-                   (i < 9) ? "   " : " ",
-                   ratio);
+            printf("F(%2d)/F(%2d) = %.6f\n", i + 1, i, ratio);
         }
     }
 
