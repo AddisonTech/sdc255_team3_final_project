@@ -13,19 +13,39 @@
 #include "calculations_2.h"
 
 void mainLoop(int option) {
+    double num1;
+    double num2;
+    double result;
+
     switch(option) {
         case 1:
             readFile();
             break;
+
         case 2:
             writeToFile("Team 3 Final Project output");
             break;
+
         case 3:
-            firstCalculation(0, 0);
+            printf("Enter first number: ");
+            scanf("%lf", &num1);
+
+            printf("Enter second number: ");
+            scanf("%lf", &num2);
+
+            result = calculationOne(num1, num2);
+
+            printf("Calculation 1 average result: %.2f\n", result);
             break;
+
         case 4:
             calculationTwo();
             break;
+
+        case 5:
+            printf("Exiting program.\n");
+            break;
+
         default:
             printf("Invalid option. Please try again.\n");
             break;
