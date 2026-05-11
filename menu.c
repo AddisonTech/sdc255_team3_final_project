@@ -5,15 +5,12 @@
  */
 
 #include <stdio.h>
-#include <stdlib.h>
 #include "menu.h"
 
 int menu() {
     int option;
 
-    system("clear");
-
-    printf("=== Main Menu ===\n");
+    printf("\n=== Main Menu ===\n");
     printf("1. Read File\n");
     printf("2. Write File\n");
     printf("3. Calculation 1\n");
