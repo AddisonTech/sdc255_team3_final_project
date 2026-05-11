@@ -12,6 +12,15 @@
 #include "calculations.h"
 #include "calculations_2.h"
 
+void pauseScreen() {
+    int ch;
+
+    printf("\nPress Enter to return to the menu...");
+    while ((ch = getchar()) != '\n' && ch != EOF) {
+    }
+    getchar();
+}
+
 void mainLoop(int option) {
     double num1;
     double num2;
@@ -20,10 +29,12 @@ void mainLoop(int option) {
     switch(option) {
         case 1:
             readFile();
+            pauseScreen();
             break;
 
         case 2:
             writeToFile("Team 3 Final Project output");
+            pauseScreen();
             break;
 
         case 3:
@@ -36,10 +47,12 @@ void mainLoop(int option) {
             result = calculationOne(num1, num2);
 
             printf("Calculation 1 average result: %.2f\n", result);
+            pauseScreen();
             break;
 
         case 4:
             calculationTwo();
+            pauseScreen();
             break;
 
         case 5:
@@ -48,6 +61,7 @@ void mainLoop(int option) {
 
         default:
             printf("Invalid option. Please try again.\n");
+            pauseScreen();
             break;
     }
 }
